@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>frameset</title>
+</head>
+<frameset rows="50%,*">
+<frame src="f1.html" name="a">
+<frameset cols="50%,*">
+<frame src="f2.html" name="b">
+<frame name="c">
+</frameset>
+</frameset>
+</html> 
+
+f1.html
+
+<html>
+<head>
+<title>floating</title>
+</head>
+<body>
+<h1 align="center"><b><u>BIRDS</u></b></h1>
+<img src="bird.jpg" height="200" width="300">
+<pre>Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers,
+ toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and 
+a strong yet lightweight skeleton. Birds live worldwide and range in size from the 5.5 cm (2.2 in) bee hummingbird 
+to the 2.8 m (9 ft 2 in) ostrich.</pre>
+</body>
+</html>
+
+f2.html
+
+<html>
+<head>
+<title>frame</title>
+</head>
+<body>
+<h8 align="center"><b>Types of flowers</b></h8>
+<p>Birds are some of the most successful vertebrate animals on Earth. 
+There are more than 9,000 bird species, and they are spread over the whole 
+planet, from the poles to the equator.</p>
+<a href="course.html" target="c">More</a>
+<iframe src="ln.html" height="150" width="350">
+</body>
+</html> 
+
+course.html
+
+<html>
+<head>
+<title>Natural</title>
+</head>
+<body>
+<h5><b>TYPES</b></h5>
+<ul>
+<li> Toucan</li>
+<li> Swift </li>
+<li> Parrots</li>
+<li> King Fisher</li>
+</ul>
+</body>
+</html>
+
+ln.html
+
+<html>
+<head>
+<title>nature</title>
+</head>
+<body>
+<h3 align="center">TYPES</b></h3>
+<ul>
+<li>Columbidae </li>
+<li> Hornbill</li>
+<li>  Rallidae</li>
+<li>Spoonbill:</li>
+</ul>
+</body>
+</html>
