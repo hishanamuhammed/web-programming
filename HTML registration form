@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>reg</title>
+</head>
+<body bgcolor="pink">
+<center>
+<h1><b><font color="blue">REGISTRATION FORM</font></b></h1>
+</center>
+<br>
+<center>
+<form  method="post">
+<table>
+<tr>
+<td>
+<label for="iname">First Name:</label>
+</td><td><input type="text" size="30"></td>
+</tr>
+<tr>
+<td>
+<label for="lname">Last Name:</label>
+</td><td><input type="text" size="30"></td>
+</tr>
+<tr>
+<td>
+<label for="ia">Age:</</td><td><input type="text" size="30"></td>
+</tr>
+<tr>
+<td>
+<label for="fname">Address:</label></td><td><textarea size="30">
+</textarea></td>
+</tr>
+<tr>
+<td>
+<label for="is">Sex:</label></td>
+<td><input type="radio" name="sex" value="male">Male
+<input type="radio" name="sex" value="Female">Female
+<input type="radio" name="sex" value="other">Other
+</td>
+</tr>
+<tr>
+<td>
+<label for="inat">Nationality:</label></td>
+<td><select name="Nationality" size="1">
+<option value="Select" selected>Select
+<option value="Indian">Indian
+<option value="british">British
+<option value="german">German
+<option value="Srilankan">Srilankan</td>
+</tr>
+<tr>
+<td>
+<label for="iemail">Email:</label></td><td><input type="text" size="30"></td>
+</tr>
+<tr><td>Phone:</td>
+<td><input type="number" size="30"></td></tr>
+<tr>
+<td>Mobile No:</td>
+<td><input type="number" size="30"></td>
+</tr>
+<tr>
+<td>Qualification:</td>
+<td><input type="checkbox" name="hobby" value="sslc">SSLC
+<input type="checkbox" name="hobby" value="plustwo">PLUS TWO
+<input type="checkbox" name="hobby" value="degree">DEGREE
+<input type="checkbox" name="hobby" value="other">OTHER
+</td></tr>
+</table>
+<input type="submit" value="submit" style="background-color:green">
+<input type="button" value="Cancel" style="background-color:green"></tr>
+</form>
+</body>
+</html>  
